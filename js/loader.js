@@ -23,6 +23,8 @@ function progressSim(){
 		clearTimeout(sim);
 	   
 		myModal.show();
+		loader.style.display = 'none';
+
 
 		// Add scripting here that will run when progress completes
 	}
